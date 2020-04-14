@@ -11,6 +11,6 @@ with open("books.csv","r") as datafile:
 
 sns.scatterplot(x="ratings_count", y="average_rating", hue="average_rating", data=data)
 
-plt.title("Average GoodRead Rating and Number of Ratings")
+plt.title("Average GoodReads Rating and Number of Ratings")
 
 plt.savefig("avg_rtg_rtg_count.png")
